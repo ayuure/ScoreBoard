@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: myFont;
+    src: url(Cursed_Timer_ULiL/CursedTimerULiL.ttf);
+}
+.container{
+    
+    padding: 20px 60px;
+    background-color: #1B244A;
+    margin:auto;
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.btn{
+    font-family: myFont;
+    font-size: 23px;
+    color: #9AABD8;
+
+}
+
+h3{
+   color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:40px ;
+}
+#p3, #p2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color:#080001 ;
+    width:155px;
+    height: 120px;
+    color: #F94F6D;
+    font-size: 90px;
+}
+button{
+    border: 1 px solid #9AABD8;
+    background-color: #1B244A;
+    height: 45px;
+    width: 45px;
+    margin-top: 20px;
+    margin-left: 7px;
+    border-radius: 5px;
+}
